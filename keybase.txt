@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/jakob223
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jakob.weisbl.at
+  * I am jakob223 (https://keybase.io/jakob223) on keybase.
+  * I have a public key with fingerprint F68C F16C 7DCE 2426 F584  67A5 ACA6 1AA5 3145 FDD4
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101de35194264ee23288cb7cfdfe5185b37112df541dd938bf102aa41b2286ebddf0a",
+            "fingerprint": "f68cf16c7dce2426f58467a5aca61aa53145fdd4",
+            "host": "keybase.io",
+            "key_id": "aca61aa53145fdd4",
+            "kid": "0101de35194264ee23288cb7cfdfe5185b37112df541dd938bf102aa41b2286ebddf0a",
+            "uid": "5f72055750c37c02a630122781508219",
+            "username": "jakob223"
+        },
+        "revoke": {
+            "sig_ids": [
+                "0dca03c111bad45527b1f62a0fc5ae35aa360581a83751436a7e997f46f368110f"
+            ]
+        },
+        "service": {
+            "hostname": "jakob.weisbl.at",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1482729010,
+    "expire_in": 157680000,
+    "prev": "0526d37561d76a0bab63834584ce2f5ca6d104b5bf0cae420e99f7f8fa4eade5",
+    "seqno": 19,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owGtkn1olVUcx++dufDaMoRU3FxyFqzgNs7Lc855nmsQySSD1DSWiYy787o9bd3n
+6d5nd421XkSj/sgGLlATxbfdogjzD0t8wYT+SaUEKRGKXpzoUJExomhp5xkF/dGf
+nn8eznm+v8/ve76/M9IwK5PLfjK2+CBa8deF7JlrMvNC19ieISAjPQgKQ6DXzHxM
+nzaVpNgbalAAEEGkDaEo8DDzjMEE+76SXFltDUU+lYQjhLWlHtI6IL60CGIhPCQx
+9pmRWlsoQB7YsNRtynE5LCUOa5mvLGKKa2WwI1vqe4wLKpRgSAhKkEet1p4r7Ikq
+aYUzJ0XFtIWRO3Ob4oy9/9HfZd/9MzhqOYaUcgoV4coJGYEIY+4jCn2MglRYMeWS
+eMk49YuiN3IYAobzoGyqUa9Jc62E3c50BRQ2AqiVgEQhhKTQHqWYS2QZFtAqKpxr
+IQiD1EfCJ5wijzDBTRBw6zFLmI8QtKDTsV3Haqhm4GlK/+3eNmDCiuxrE4mzFpej
+JFJRn/vZkyRxIfWVDMafp+oBI4v/cIoyLGk3JldRNeVKGJVAATmpSsIUjDwfcxy4
+ZPPAvBKHZVMMUwXlzIdupX1MNc2eYqadcYY0ZwJKIRnxiedG7IZtqRuZRtCTVFqo
+hPEwdHez3PpWeEZoQ0F6s5dLkWMHzqjodkwXXkkk/WUDhnPvZJvuyWRzmfrZdekD
+zuTmPPDvq34/vvf2w2+81ZoZGL4y9VXziS2HO9beudrYsuijs61Lrqx69feGZce+
+nZyYOLlhdFPX9Jy5S0nf4xc7n6qNxqT5u0dvbjzff7xz/v3tzxx/Ypt9cLCr8dbp
+hxqn7xsvXohre+rnv/3Y02PrarnJ12blX9/3bgcfHw2Hm64eyq0eab28cMH+9epM
+6dTOqcVy3prfxh9Rz14MGmb3fHodrNzxwfY7xV3ffPh8bd7KE9kvoyfZjfPTl45e
++2H3sQMLfm050NDe9cW5ze0rftldG10UeF9vG7v9x9Dc9+JLn11ugc+1NjdN1725
+vO5mtvozWL136/qJI6dOHu4Y6f9zcs3RQ8Ufl/y0cHvn9e/z605P1e8COz7+Gw==
+=0clr
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jakob223
+
+==================================================================
+
