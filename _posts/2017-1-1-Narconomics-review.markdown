@@ -9,7 +9,7 @@ author:
   bio: MIT Student who likes Crypto and Food
 categories: book
 ---
-I recently finished reading [https://www.amazon.com/Narconomics-How-Run-Drug-Cartel/dp/1610395832](Narconomics: How to Run a Drug Cartel) by Tom Winwright, the British editor of *The Economist*. I quite enjoyed reading it, and it brought an interesting, and mostly fresh, perspective on the drug industry.
+I recently finished reading [How to Run a Drug Cartel](https://www.amazon.com/Narconomics-How-Run-Drug-Cartel/dp/1610395832) by Tom Winwright, the British editor of *The Economist*. I quite enjoyed reading it, and it brought an interesting, and mostly fresh, perspective on the drug industry.
 
 The most I've really seen of the impact of real Economics on the drug industry is some of the arguments in favor of legalizing Marihuana in the United States, but this book applies traditional economic thinking to all sectors of it, from the supply side where the U.S. traditionally wants drugs to be fought (e.g. Colombia), to the cartels in Mexico and the Carribean, to the internet marketplaces and the demand-side in the U.S. and Europe.
 
