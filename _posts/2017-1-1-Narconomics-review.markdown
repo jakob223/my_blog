@@ -1,12 +1,17 @@
 ---
 layout: post
+
 title:  "Book Review - Narconomics: How to Run a Drug Cartel"
 date:   2017-01-01 18:00:00
 subtitle: "Economics applied to the Drug Industry."
+
 author: 
   name: Jakob Weisblat
   twitter: jakobw223
   bio: MIT Student who likes Crypto and Food
+
+excerpt: "<i>Narconomics</i> thinks about the drug industry like economists think about a legal industry, and it provides a remarkably interesting view of the trade."
+
 categories: book
 ---
 I recently finished reading [How to Run a Drug Cartel](https://www.amazon.com/Narconomics-How-Run-Drug-Cartel/dp/1610395832) by Tom Winwright, the British editor of *The Economist*. I quite enjoyed reading it, and it brought an interesting, and mostly fresh, perspective on the drug industry.
