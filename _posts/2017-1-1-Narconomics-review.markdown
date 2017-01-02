@@ -4,7 +4,7 @@ layout: post
 title:  "Book Review - Narconomics: How to Run a Drug Cartel"
 date:   2017-01-01 18:00:00
 subtitle: "Economics applied to the Drug Industry."
-
+cover_image: narconomics.jpg
 author: 
   name: Jakob Weisblat
   twitter: jakobw223
