@@ -40,6 +40,9 @@ images:
   - filename: "10laertes-room.jpg"
     caption: "Laertes' Room"
     pc: "Alex Konradi"
+  - filename: "14fortinbras-end.jpg"
+    caption: "Fortinbras examines his new kingdom"
+    pc: "Alex Konradi"
   - filename: "11claudius-speech.jpg"
     caption: "Claudius's speech"
     pc: "Alex Konradi"
@@ -48,9 +51,6 @@ images:
     pc: "Alex Konradi"
   - filename: "13ophelia-rememberances.jpg"
     caption: "Ophelia and her rememberances"
-    pc: "Alex Konradi"
-  - filename: "14fortinbras-end.jpg"
-    caption: "Fortinbras examines his new kingdom"
     pc: "Alex Konradi"
 ---
 
