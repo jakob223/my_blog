@@ -63,3 +63,18 @@ assets:
   cache: false
   gzip: [ text/css, application/javascript ]
   debug: false
+
+collections:
+ shows:
+   output: true
+   permalink: /:collection/:title.html
+
+defaults:
+ - scope:
+     path: ""
+     type: "shows"
+   values:
+     layout: "show"
+
+
+

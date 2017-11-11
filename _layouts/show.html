@@ -1,0 +1,37 @@
+---
+layout: base
+---
+<div class="article-cover" style="background-image:url(/{{ page.image_folder }}/{{ page.images.first.filename }})"></div>
+<div class='cover-caption'>{{ page.images.first.caption }}</div>
+
+<article {% if page.container_class %}class='{{ page.container_class }}'{% endif %}>
+
+  <div class="container">
+    <header>
+      <div class="meta">
+        <address><a href="{{ page.company.link }}" title="{{ page.company.name }}" target="_blank">{{ page.company.name }}</a></address> &mdash;
+        {{ page.date | date: "%b %Y" }}
+      </div>
+      <h1 class="title">{{ page.title }}</h1>
+      <h2 class="subtitle">Directed by {{ page.director }}</h2>
+      <!--TODO: include author, position, link -->
+    </header>
+
+    <section>
+      {{ content }}
+      {% include social_sharing.html %}
+    </section>
+    <section>
+      TODO: include photos 
+    </section>
+    <footer>
+      {{ page.footer }}
+      {% if page.credits %}
+        <i>{{ page.title }}</i> by <b>{{ page.author }}</b>
+        {% for credit in page.credits %}
+          {{ credit.position }}: <b>credit.person</b>
+        {% endfor %}
+      {% endif %}
+    </footer>
+  </div>
+</article>
