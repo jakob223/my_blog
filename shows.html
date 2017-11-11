@@ -1,0 +1,31 @@
+---
+layout: base
+---
+<div class="blog-cover" style="background-image:url(/images/{{ site.info.portfolio_image }});">
+  <div class='cover_overlay'>
+    <div class="content">
+      <h1>{{ site.info.title }}</h1>
+      {% if site.info.subtitle %}<h3>{{ site.info.subtitle }}</h3>{% endif %}
+      {% include social_links.html %}
+    </div>
+  </div>
+</div>
+<!-- TODO: replace image on portfolio page-->
+<div class='cover-caption'><a href='/about.html#pictures'>{{ site.info.cover_image_caption }}</a></div>
+
+<article>
+  <div class="container">
+    {% for show in site.shows %}
+    <section class="post_summary">
+      <h2 class="title"><a href="{{ show.url }}" rel="prefetch">{{ show.title }}</a></h2>
+      <div style="width: 500px; display: inline-block;">{{ show.content }}</div>
+      <img src="{{ show.image_folder }}/thumbnails/{{ show.images.first.filename }}" style="width: 150px; float: right;margin: 5px;"/>
+      <!-- TODO: make this a thumbnail -->
+      <div class="meta">
+         <a href="{{ show.company.link }}" title="{{ show.company.name }}" target="_blank">{{ show.company.name }}</a> &mdash;
+        {{ show.date | date: "%b %Y" }} &mdash; {{ show.position }}
+      </div>
+      <hr>
+    {% endfor %}
+  </div>
+</article>

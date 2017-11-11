@@ -50,6 +50,7 @@ safe:               false
 #
 # jekyll-assets: see more at https://github.com/ixti/jekyll-assets
 #
+
 assets:
   dirname: assets
   baseurl: /assets/
@@ -75,6 +76,5 @@ defaults:
      type: "shows"
    values:
      layout: "show"
-
 
 

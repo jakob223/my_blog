@@ -3,6 +3,29 @@ layout: base
 ---
 <div class="article-cover" style="background-image:url(/{{ page.image_folder }}/{{ page.images.first.filename }})"></div>
 <div class='cover-caption'>{{ page.images.first.caption }}</div>
+<style>
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 12px;
+}
+</style>
 
 <article {% if page.container_class %}class='{{ page.container_class }}'{% endif %}>
 
@@ -12,17 +35,25 @@ layout: base
         <address><a href="{{ page.company.link }}" title="{{ page.company.name }}" target="_blank">{{ page.company.name }}</a></address> &mdash;
         {{ page.date | date: "%b %Y" }}
       </div>
-      <h1 class="title">{{ page.title }}</h1>
+      <h1 class="title"><a href="{{ page.link }}">{{ page.title }}</a></h1>
+      <h2 class="subtitle">{{ page.position }}</h2>
       <h2 class="subtitle">Directed by {{ page.director }}</h2>
       <!--TODO: include author, position, link -->
     </header>
 
     <section>
       {{ content }}
-      {% include social_sharing.html %}
     </section>
     <section>
-      TODO: include photos 
+    {% for image in page.images %}
+    <div class="gallery">
+        <a class="fancybox" data-fancybox="gallery" title="{{image.caption}}" href="/{{page.image_folder}}/{{image.filename}}">
+             <img class="gallery" src="/{{page.image_folder}}/thumbnails/{{image.filename}}">
+        </a>
+        <div class="desc">{{image.caption}}</div>
+    </div>
+    
+    {% endfor %}
     </section>
     <footer>
       {{ page.footer }}
