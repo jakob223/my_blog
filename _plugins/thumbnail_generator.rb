@@ -17,6 +17,7 @@ module Jekyll
     def generate(site)
         get_parameters! site
         site.collections.first.last.docs.each do |post|
+            puts("Processing images for '#{post.data["title"]}'")
             asset_dir = post.data['image_folder'];
             if not File.exists? asset_dir
                 raise "Asset directory '#{asset_dir}' not found."
