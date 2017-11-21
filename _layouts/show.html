@@ -2,7 +2,7 @@
 layout: base
 ---
 <div class="article-cover" style="background-image:url(/{{ page.image_folder }}/{{ page.images.first.filename }})"></div>
-<div class='cover-caption'>{{ page.images.first.caption }}</div>
+<div class='cover-caption'>{{ page.images.first.caption }} - PC {{ paage.images.first.pc }}</div>
 <style>
 div.gallery {
     margin: 5px;
@@ -47,10 +47,10 @@ div.desc {
     <section>
     {% for image in page.images %}
     <div class="gallery">
-        <a class="fancybox" data-fancybox="gallery" title="{{image.caption}}" href="/{{page.image_folder}}/{{image.filename}}">
+        <a class="fancybox" data-fancybox="gallery" title="{{image.caption | escape}}" href="/{{page.image_folder}}/{{image.filename}}" data-caption="{{ image.caption | escape}} - PC {{image.pc}}">
              <img class="gallery" src="/{{page.image_folder}}/thumbnails/{{image.filename}}">
         </a>
-        <div class="desc">{{image.caption}}</div>
+        <!--<div class="desc">{{image.caption}}</div>-->
     </div>
     
     {% endfor %}
