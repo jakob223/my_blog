@@ -8,20 +8,20 @@ company:
   name: "The MIT Musical Theater Guild"
   link: "http://mtg.mit.edu"
 date: 2017-11-10 20:00:00
-image_folder: "images/shows/avenue-q"
+image_folder: "images/shows/spamalot"
 images:
-   - filename: "1empire_state_building.jpg"
-     caption: "Princeton and Lucy below the Empire State Building"
-     pc: "Madison Hill"
-   - filename: "2internet_is_for_porn.jpg"
-     caption: "The Internet is for Porn!"
-     pc: "Madison Hill"
-   - filename: "3rod_book.jpg"
-     caption: ""
-     pc: "Madison Hill"
-   - filename: "4sad_princeton.jpg"
-     caption: "There is life outside your apartment"
-     pc: "Madison Hill"
+   - filename: "boat.JPG"
+     caption: "The Lady of the Lake's boat"
+     pc: "Carrie Fowle"
+   - filename: "taunter.JPG"
+     caption: "The Frech taunt the English from their castle"
+     pc: "Carrie Fowle"
+   - filename: "herbert.JPG"
+     caption: "Prince Herbert on the tall tower"
+     pc: "Carrie Fowle"
+   - filename: "knights.JPG"
+     caption: "The Knights who say 'Ni!' in the Dark and Very Expensive Forest"
+     pc: "Carrie Fowle"
 ---
 
 
