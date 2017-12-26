@@ -26,7 +26,8 @@ images:
 
 
 
-A puppet-filled comedy follows a group of twenty-somethings seeking their purpose in big-city life.
+Lovingly ripped off from the classic film comedy Monty Python and the Holy Grail, Spamalot retells the legend of King Arthur and his Knights of the Round Table, and features a bevy of beautiful show girls, not to mention cows, killer rabbits, and French people. Did we mention the bevy of beautiful show girls? The 2005 Broadway production won three Tony Awards, including Best Musical, and was followed by two successful West End runs.
+
 
 
 
