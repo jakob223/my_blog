@@ -81,5 +81,5 @@ defaults:
    values:
      layout: "show"
 
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-assets]
 

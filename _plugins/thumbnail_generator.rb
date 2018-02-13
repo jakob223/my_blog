@@ -16,19 +16,19 @@ module Jekyll
 
     def generate(site)
         get_parameters! site
-        site.collections.first.last.docs.each do |post|
+        site.collections["shows"].docs.each do |post|
             puts("Processing images for '#{post.data["title"]}'")
             asset_dir = post.data['image_folder'];
             if not File.exists? asset_dir
                 raise "Asset directory '#{asset_dir}' not found."
             end
-
+ 
             thumbnails_dir = "#{asset_dir}/#{Thumbnails_dir}"
             Dir.mkdir thumbnails_dir if not File.exists? thumbnails_dir
-
+ 
             new_files = []
             new_files.concat generate_gallery_thumbnails(site, post, asset_dir)
-
+ 
             # reader = StaticFileReader.new(site, thumbnails_dir)
             # site.static_files.concat(reader.read(new_files))
         end
