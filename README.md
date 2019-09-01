@@ -1,5 +1,6 @@
 ## Installation & Usage
 
+    sudo apt-get install build-essential imagemagick libmagickwand-dev ruby-dev ruby-bundler libffi-dev zlib1g-dev
     bundle install
     bundle exec jekyll serve
 
