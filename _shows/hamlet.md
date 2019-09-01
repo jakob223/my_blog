@@ -59,4 +59,4 @@ images:
 
 Welcome to Elsinore, a city of stiff machismo and military pride, ruled over by the gruff but decisive Claudius and his former sister-in-law, Gertrude. To Hamlet, this is not her world. But when the ghost of her father appears to Hamlet and reveals Claudius as his killer, Hamlet tempestuously vows revenge. But how will she do it? Can this bookish and emotional grad student overthrow a regime? This take on Hamlet looks at the limits of our convictions, and how much we can really manage to change a society.
 
-
+[A video recording of the production](https://www.youtube.com/watch?v=Xk5bF4tgUKM) is online.

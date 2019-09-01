@@ -10,6 +10,9 @@ company:
 date: 2018-02-02 20:00:00
 image_folder: "images/shows/joseph"
 images:
+  - filename: "toybox_maude.jpg"
+    caption: "Joseph enters through the toy box"
+    pc: "Maude Gull"
   - filename: "preshow.jpg"
     caption: "Preshow"
     pc: "Jakob Weisblat"

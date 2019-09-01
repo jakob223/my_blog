@@ -1,0 +1,18 @@
+---
+layout: post
+
+title:  "Lighting Video - Asian Dance Team"
+date:   2018-05-21 02:35:00
+subtitle: "Hellevator"
+cover_image: adt-flowy.jpg
+author: 
+  name: Jakob Weisblat
+
+excerpt: "Video from Asian Dance Team spring showcase"
+
+categories: lighting
+---
+I recently designed lights for MIT Asian Dance Team's spring showcase, *Ignite*. They actually have good videos this year! Here's a video of a dance I was particularly happy with (the show had ~20 more dances in it).  
+
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LBX7pagD9LM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
