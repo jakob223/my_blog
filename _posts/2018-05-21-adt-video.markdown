@@ -7,6 +7,7 @@ subtitle: "Hellevator"
 cover_image: adt-flowy.jpg
 author: 
   name: Jakob Weisblat
+  twitter: jakobw223
 
 excerpt: "Video from Asian Dance Team spring showcase"
 
